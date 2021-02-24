@@ -25,7 +25,8 @@ class HashTable:
 
   def hash_func(self, key):
     
-    pass
+    solution = (hash(key) * 21) % self.size
+    return solution
 
 
   # 3️⃣ TODO: Complete the insert method.
