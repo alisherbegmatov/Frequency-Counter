@@ -14,7 +14,7 @@ class HashTable:
 
   def create_arr(self, size):
      
-    pass
+    return [LinkedList() for i in range(size)]
 
 
 
