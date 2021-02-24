@@ -62,7 +62,16 @@ class HashTable:
   # erase: 2
 
   def print_key_values(self):
-    pass
+    for lst in self.arr:
+      slot = lst.head
+
+      if slot == None:
+        pass
+
+      else:
+        for i in range(lst.length()):
+           print(f'{slot.data[0]}: {slot.data[1]}')
+           slot = slot.next
 
 
 
