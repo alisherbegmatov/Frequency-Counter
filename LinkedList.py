@@ -33,7 +33,6 @@ class LinkedList:
       return -1
 
 
-
   def length(self):
     if self.head == None:
       return 0

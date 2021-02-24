@@ -1,4 +1,3 @@
-
 def test_counter( lst):
 
   words = {}
